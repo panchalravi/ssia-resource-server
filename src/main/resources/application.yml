@@ -1,0 +1,23 @@
+server:
+  port: 9090
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        opaquetoken:
+#          introspection-uri: http://localhost:8080/oauth/check_token
+#          client-id: resourceserver
+#          client-secret: secret
+
+
+jwt:
+  key: MjWP5L7CiD
+
+#
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          public-key-location: classpath:my-key.pub
+key.location: classpath:my-key.pub
